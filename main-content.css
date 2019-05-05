@@ -1,0 +1,368 @@
+.main-content .notice-streamer {
+	background-image: url(images/notice-streamer.jpg);
+	background-position: center;
+	height: 500px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.notice-streamer .sidebar {
+	width: 1174px;
+	padding: 0 15px 0 15px;
+	margin: 30px auto;
+}
+
+.sidebar .notice-content {
+	width: 460px;
+	color: #FFF;
+}
+
+.notice-content .notice-headline {
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.notice-content .notice-context {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.notice-content .search-bar .input-group {
+	display: flex;
+	height: 50px;
+	background-color: #FFF;
+}
+
+.notice-content .search-bar .button-search {
+	height: 100%;
+	width: 54px;
+	font-size: 15px;
+}
+
+.new-channel .how-udemy-work-container {
+	background: linear-gradient(-45deg, #EC5252 0, #6E1A52 100%);
+}
+
+.new-channel .how-udemy-work-content {
+	margin: 30px auto;
+	margin-bottom: 24px;
+	margin-top: 0px;
+	padding-left: 15px;
+  padding-right: 15px;
+	display: flex;
+	color: #FFF;
+	height: 85px;
+}
+
+.new-channel .how-udemy-work-container .item {
+	display: flex;
+	padding: 20px 25px;
+	width: 33%;
+}
+
+.new-channel .how-udemy-work-container .item i {
+	font-size: 47px;
+	margin-right: 10px;
+}
+
+.how-udemy-work-content .item .text div {
+	font-size: 17px;
+	font-weight: bold;
+
+}
+
+.how-udemy-work-content .item .subtext {
+	font-size: 15px;
+}
+
+.new-channel .how-udemy-work-container .item-id1 {
+	padding-left: 11px;
+}
+
+.new-channel .how-udemy-work-container .item-id2 {
+	display: flex;
+	justify-content: center;
+}
+
+.new-channel .how-udemy-work-container .item-id3 {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.new-channel .courses-wrapper {
+	width: 970px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
+.courses-wrapper .courses-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.courses-container .skills-hub {
+	display: flex;
+	flex-direction: row;
+}
+
+.skills-hub .description-container {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin: 15px 15px 28px 0;
+	padding: 0 32px;
+	background: #F7F8FA;
+	width: 231px;
+	color: #29303B;
+}
+
+.description-container .description-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.description-content .description-text {
+	font-size: 19px;
+	font-weight: 600;
+}
+
+.description-content .description-subtext {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.desktop-content {
+	display: flex;
+	flex-direction: column;
+	width: 682px;
+}
+
+.desktop-content .desktop-list {
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid #DEDFE0;
+	margin-bottom: 16px;
+}
+
+.desktop-list .button {
+	color: #14171C;
+	border-bottom: 6px solid transparent;
+	padding: 11px 12px;
+}
+.desktop-list .cur {
+	border-color: #007791;
+}
+
+.new-channel .banner-wrapper {
+	margin-bottom: 20px;
+}
+
+.new-channel .banner-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.banner-container .banner-header {
+	background: linear-gradient(-45deg, #EC5252 0, #6E1A52 100%);
+	height: 8px;
+}
+
+.banner-container .banner-content {
+	padding: 0 8px;
+	background-color: #29303B;
+	height: 360px;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+}
+
+.banner-content .top, .banner-content .bot {
+	height: 20%;
+}
+
+.banner-content .mid {
+	height: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner-content .mid .text {
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 16px;
+}
+
+.banner-content .mid .subtext {
+	margin-bottom: 24px;
+}
+
+.button-red {
+	color: #FFF;
+	background-color: #EC5252;
+	border: 1px solid transparent;
+	padding: 11px 12px;
+	font-size: 15px;
+	font-weight: 600;
+	border-radius: 2%;
+	height: 45px;
+}
+
+.button-red:hover {
+	color: #FFF;
+	background-color: #992337;
+	border-color: transparent;
+}
+
+.new-channel .top-categories-container {
+	width: 970px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 32px;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.top-categories-container .top-categories-header {
+	font-size: 24px;
+	font-weight: 600;
+	padding-left: 15px;
+}
+
+.container-grey {
+	background: #F7F8FA;
+}
+
+.container-grey .testimonial-wrapper {
+	padding: 32px 16px;
+	width: 970px;
+	margin: auto;
+	position: relative;
+}
+
+.testimonial-container {
+	width: 100%;
+	overflow: hidden;
+}
+
+.testimonial-wrapper .testimonial-header {
+	margin-bottom: 10px;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.carousel-container {
+	width: 1170px;
+}
+
+.carousel-container .stick-list .stick-item {
+	width: 380px;
+}
+
+.stick-item-container .stick-item-content .infor {
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.stick-item-content .infor div {
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.stick-item-content .infor img {
+	border-radius: 50%;
+	background-color: rgb(104, 111, 122);
+}
+
+.stick-item-content .text {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.carousel-container .stick-list .stick-item-container:hover {
+	box-shadow: 0 0 1px 1px rgba(20,23,28,0.1), 0 2px 1px 0 rgba(20,23,28,0.1);
+}
+
+.carousel-container .stick-list {
+	position: initial;
+}
+
+.carousel-container .next-button {
+	top: 45%;
+	right: 3px;
+}
+
+.partners {
+	padding-bottom: 24px;
+}
+
+.partners .partners-header {
+	font-size: 13px;
+	padding-top: 16px;
+	text-align: center;
+}
+
+.partners .partners-logo-container .partners-logos {
+	display: flex;
+	justify-content: center;
+	padding-top: 32px;
+}
+
+.partners-logos .logo-item {
+	margin: 0 32px 8px 32px;
+}
+
+.non-student-container {
+	padding-bottom: 22px;
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid #E8E9EB;
+}
+
+.non-student-container .non-student {
+	padding: 28px 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+}
+
+.left {
+	border-bottom: none;
+	border-right: 1px solid #DEDFE0;
+}
+
+.non-student .non-student-content {
+	max-width: 320px;
+	text-align: center;
+}
+
+.non-student-content .header {
+	font-size: 19px;
+	font-weight: 600;
+	color: #505763;
+	padding-top: 5px;
+}
+
+.non-student-content .content {
+	font-size: 16px;
+	font-weight: 400;
+	padding-top: 5px;
+}
+
+.non-student-content .link {
+	padding-top: 5px;
+	text-align: center;
+	display: inline-flex;
+}
+
+.non-student-content .link a {
+	margin-top: 15px;
+}
